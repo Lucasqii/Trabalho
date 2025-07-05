@@ -1,0 +1,39 @@
+body { /* Muda a cor do plano de fundo */
+    background-color: rgb(183, 205, 230);
+}
+.fonte {  /* Muda a fonte para Arial */
+    font-family: Arial;
+}
+.central { /* Contraliza e muda a cor de fundo */
+    text-align: center;
+    background-color: rgb(191, 243, 195);
+}
+p { /* Muda o tamnho da fonte e justifica */
+    font-size: 18px;
+    text-align: justify;
+}
+.listas { /* Da o espaçamento entre a lista */
+    margin: 20px;
+}
+.tabela { /* Deixa a tabela arredondada e muda a cor da borda */
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: black;
+}
+.nomes { /* Muda a cor de fundo dos Paises e arredonda as bordas */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.bordasArredondadas { /* Arredonda as bordas das fotos */
+    border-radius: 10px;
+    width: 250px;
+}
+.site { /* Muda a cor do link para azul */
+    color: blue;
+}
+.site:hover { /* Quando passar o mouse por cima do link deixa roxo */
+    color: purple;
+}
